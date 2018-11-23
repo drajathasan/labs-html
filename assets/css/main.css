@@ -33,17 +33,11 @@ header.nav > .nav-content {
 }
 
 header.nav > .nav-content > .right > img.user-pic {
-	width: 25px;
-	height: 25px;
-	padding: 0;
-	margin: 0;
-	background: white;
-	border-radius: 15px;
+	width: 60px;
 }
 
 header.nav > .nav-content > .right > i {
-	padding: 5px;
-	font-size: 18px
+	font-size: 18px;
 }
 
 header.nav > .nav-content > .left > .module {
@@ -80,12 +74,6 @@ header.nav > .nav-content > .left > .module > ul > li > a {
 	text-decoration: none;
 }
 
-/*header.nav > 
-.nav-content > .left > 
-.module > ul > li > a.dshb:hover {
-	
-}*/
-
 header.nav > 
 .nav-content > .left > 
 .module > ul > li > a:hover {
@@ -93,6 +81,32 @@ header.nav >
 	padding-bottom: 2px;
 }
 
+.circle-right {
+	padding: 10.6px 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #ccc;
+}
+
+.circle-right:hover {
+	color: white;
+}
+
+.circle-right-img {
+	padding: 10.6px 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #ccc;
+}
+
+.circle-right-img > img {
+	width: 23px;
+	height: 23px;
+	background: white;
+	border-radius: 10px;
+}
 /* End Header Section */
 
 /* Container */
@@ -282,4 +296,21 @@ div.top-item {
 	margin-left: 15px;
 }
 
+img.dropdown-toggle {
+	width: 30px;
+	background: white;
+	border-radius: 15px;
+	margin-top: 4px;
+	cursor: pointer;
+}
+
+i.other-mod {
+	padding: 10px;
+	cursor: pointer;
+}
+
+i.other-mod:hover {
+	background: whitesmoke;
+	color: #554488;
+}
 /* End Other Class 
