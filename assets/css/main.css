@@ -1,0 +1,259 @@
+ /* Import Bootstrap CSS Framework*/
+@import url('bootstrap.min.css');
+/* Import Font Awesome CSS Framework*/
+@import url('font-awesome.min.css');
+
+/* Reseter */
+body {
+	background: #ededed;
+}
+h4 {
+	padding: 0;
+	margin: 0;
+}
+
+
+/* End Reseter*/
+
+/* Header section */
+
+header.nav {
+	background: #554488;
+	padding: 5px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+header.nav > .nav-content {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+}
+
+header.nav > .nav-content > .right > img.user-pic {
+	width: 25px;
+	height: 25px;
+	padding: 0;
+	margin: 0;
+	background: white;
+	border-radius: 15px;
+}
+
+header.nav > .nav-content > .right > i {
+	padding: 5px;
+	font-size: 18px
+}
+
+header.nav > .nav-content > .left > .module {
+	float: left;
+	margin-left: 10px;
+}
+
+header.nav > .nav-content > .left > h4 {
+	font-size: 18pt;
+}
+
+header.nav > .nav-content > .left > h4 > span {
+	border-bottom: 1px solid #e24329;
+	padding-bottom: 1px;
+}
+
+header.nav > .nav-content > .left > .module > ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header.nav > .nav-content > .left > .module > ul > li {
+	float: left;
+	padding-top: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+}
+
+header.nav > .nav-content > .left > .module > ul > li > a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*header.nav > 
+.nav-content > .left > 
+.module > ul > li > a.dshb:hover {
+	
+}*/
+
+header.nav > 
+.nav-content > .left > 
+.module > ul > li > a:hover {
+	border-bottom: 5px solid #e24329;
+	padding-bottom: 2px;
+}
+
+/* End Header Section */
+
+/* Container */
+.container {
+	margin-top: 50px;
+	background: white;
+}
+
+.container-fluid {
+	margin-top: 40px;
+	background: white;
+	max-height: 768px;
+}
+
+/* End Container */
+
+/* Main Content */
+div.layout {
+	width: 100%;
+}
+
+div.statusbar {
+	width: 80% !important;
+	margin-top: 41px;
+	float: right;
+}
+div.footerbar {
+	width: 80% !important;
+	float: right;
+	color: #333 !important;
+	font-size: 10pt;
+}
+
+div#sidepan {
+	margin-top: 41px;
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+}
+
+#mainContent {
+	width: 80%;
+	padding: 5px;
+	background: white;
+	float: right;
+}
+
+#submenu {
+	height: 100%;
+	width: 20%;
+	background: #e7e7e7;
+	float: left;
+	position: fixed;
+	z-index: -1;
+}
+
+#sidepan > .scroll > ul {
+	background: white;
+	list-style: none;
+}
+
+.scroll {
+	overflow: auto;
+}
+
+#sidepan > .scroll > ul > li {
+
+}
+
+div.module-head {
+	padding: 20px;
+}
+
+b.circlemod {
+	padding: 20px;
+	background: #ffe7e7;
+	border-radius: 40px;
+}
+
+/* Col */
+div.col {
+	border: 1px solid #e0e0e0;
+	padding: 15px;
+}
+
+div.col > i {
+	padding-right: 10px;
+	font-size: 80px;
+	float: left;
+}
+
+/* End Col */
+
+/* Color Section */
+
+.bibco-text {
+	color : #e50064	;
+}
+
+.circo-text {
+	color: #0863b5;
+}
+
+.repco-text {
+	color: #954a97;
+}
+
+/* Position and Visibility Section */
+
+.hide {
+	display: none;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.a-center {
+	text-align: center;
+}
+
+/* End Position Section
+
+/* Other Class */
+img.brand-logo {
+	width: 30px;
+	height: 30px;
+}
+
+img.wel-pic {
+	width: 80px;
+	height: 80px;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background: whitesmoke;
+	border-radius: 50px;
+	display: block;
+}
+
+div.msgbox {
+	width: 100%;
+	border-radius: 4px;
+	color: white;
+	padding: 10px;
+}
+
+h3.wel-msg {
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 20px;
+}
+
+div.top-item {
+	width: 100%;
+}
+
+/* End Other Class 
