@@ -10,6 +10,9 @@
   <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, post-check=0, pre-check=0" />
   <meta http-equiv="Expires" content="Sat, 26 Jul 1997 05:00:00 GMT" />
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <script type="text/javascript" src="assets/js/jquery.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<header class="nav">
@@ -26,6 +29,18 @@
 						<li><a href="javascript:void(0)">Bibliography</a></li>
 					</ul>
 				</div>
+				<div class="btn-group">
+				  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    Other Module
+				  </button>
+				  <div class="dropdown-menu">
+				    <a class="dropdown-item" href="#">Action</a>
+				    <a class="dropdown-item" href="#">Another action</a>
+				    <a class="dropdown-item" href="#">Something else here</a>
+				    <div class="dropdown-divider"></div>
+				    <a class="dropdown-item" href="#">Separated link</a>
+				  </div>
+				</div>
 			</div>
 		</div>
 	</header>
@@ -33,14 +48,17 @@
 	<div class="layout">
 		<div id="submenu">
 			<div id="sidepan">
-				<div class="module-head">
-					<b class="circlemod">B</b>&nbsp;
-					<strong>Bibliography</strong>
-				</div>
-				<div class="scroll">
-					<ul>
-						<li class="">Bibliograpic</li>
-					</ul>
+				<div class="bib">
+					<div class="module-head">
+						<b class="circlemod">B</b>&nbsp;
+						<strong>Bibliography</strong>
+					</div>
+					<div class="scroll">
+						<ul>
+							<li class="sub-header"><i class="fa fa-thumb-tack"></i>&nbsp;Bibliograpic</li>
+							<li class="sub-header-menu"><i class="fa fa-file-text-o"></i>&nbsp;Bibliograpy List</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
