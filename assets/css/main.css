@@ -144,6 +144,7 @@ div#sidepan {
 	height: 100%;
 	width: 20%;
 	background: #e7e7e7;
+	padding-bottom: 40px;
 	float: left;
 	position: fixed;
 	z-index: -1;
@@ -169,7 +170,17 @@ div#sidepan {
 }
 
 .sub-header-menu {
-	margin-left: 15px;
+	margin-left: 2px;
+	font-weight: bold;
+}
+
+.sub-header-menu > a {
+	color: #3c3c3c;
+} 
+
+.sub-header-menu > a:hover {
+	color: #554488;
+	text-decoration: none;
 }
 
 div.module-head {
@@ -264,6 +275,11 @@ h3.wel-msg {
 
 div.top-item {
 	width: 100%;
+}
+
+.a-icon {
+	margin-right: 5px;
+	margin-left: 15px;
 }
 
 /* End Other Class 
